@@ -10,7 +10,6 @@ import org.bukkit.command.TabCompleter;
 public class WeatherTabCompletion implements TabCompleter {
     @Override
     public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
-        System.out.println(args[1].toString());
         List<String> l = new ArrayList<String>(); // makes a ArrayList
         // define the possible possibility's for argument 1
         if (args.length == 1) {
