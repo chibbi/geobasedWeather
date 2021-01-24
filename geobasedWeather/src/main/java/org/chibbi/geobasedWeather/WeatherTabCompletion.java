@@ -16,6 +16,7 @@ public class WeatherTabCompletion implements TabCompleter {
             l.add("stop"); // Possibility #1
             l.add("start"); // Possibility #2
             l.add("set");
+            l.add("get");
         }
         // define the possible possibility's for argument 2
         else if (args.length == 2) {
