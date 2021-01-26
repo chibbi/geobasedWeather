@@ -54,11 +54,11 @@ public class WeatherCommand implements CommandExecutor {
                         cusconf.set(args[1], args[2]);
                         try {
                             cusconf.save(customConfigFile);
+                            player.sendMessage("Successfully set §7" + args[1] + "§6 to §7" + args[2]);
                         } catch (IOException e) {
-                            // TODO Auto-generated catch block
-                            e.printStackTrace();
+                            System.out.println("Couldn't save config file!!");
+                            player.sendMessage("Couldn't save config file");
                         }
-                        player.sendMessage("§6set §7" + args[1] + " to §7" + args[2]);
                         return true;
                 }
                 ;
