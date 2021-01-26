@@ -108,7 +108,7 @@ public class App extends JavaPlugin {
                 }
 
             }
-        }, 40L, 40L);
+        }, 100L, 100L);
 
     }
 
