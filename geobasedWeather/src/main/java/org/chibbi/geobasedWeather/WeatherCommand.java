@@ -34,15 +34,15 @@ public class WeatherCommand implements CommandExecutor {
                             player.sendMessage("§6Wrong Usage");
                             return false;
                         }
-                        App.startAgain();
-                        player.sendMessage("started Weather");
+                        // new App().startAgain();
+                        player.sendMessage(
+                                "sorry, not working yet, you'd have to reload the server, or restart. SORRYYY");
                         return true;
                     case "get":
                         if (args.length != 1) {
                             player.sendMessage("§6Wrong Usage");
                             return false;
                         }
-                        App.startAgain();
                         player.sendMessage("§6current World: §7" + cusconf.get("city"));
                         return true;
                     case "set":
@@ -50,7 +50,6 @@ public class WeatherCommand implements CommandExecutor {
                             player.sendMessage("§6Wrong Usage");
                             return false;
                         }
-                        App.startAgain();
                         cusconf.set(args[1], args[2]);
                         try {
                             cusconf.save(customConfigFile);

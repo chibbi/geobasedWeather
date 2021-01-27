@@ -32,9 +32,9 @@ public class App extends JavaPlugin {
         startScheduler();
     }
 
-    public static void startAgain() {
+    public void startAgain() {
         if (id.isCancelled()) {
-            new App().startScheduler();
+            startScheduler();
         }
     }
 
