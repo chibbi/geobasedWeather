@@ -86,7 +86,6 @@ public class App extends JavaPlugin {
                     respo = content.toString();
                     in.close();
                     con.disconnect();
-                    // System.out.println(respo);
                     if (respo == null) {
                         System.out.println("GOT ERRORSS");
                         return;
@@ -103,8 +102,9 @@ public class App extends JavaPlugin {
                     }
 
                 } catch (IOException e) {
-                    // TODO Auto-generated catch block
-                    e.printStackTrace();
+                    System.out.println(
+                            "Connection Error: likely lost internet connection. if multiple errors pop up, please look that your connection is stable\n"
+                                    + "             You can contact the developer if you have problems.");
                 }
 
             }
