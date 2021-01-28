@@ -1,13 +1,13 @@
 main: org.chibbi.geobasedWeather.App
-name: "rolePlay"
+name: "geobasedWeather"
 version: 1.0.0
 api-version: 1.16
-authors: ["chibbi", "raninninn"]
+authors: "chibbi"
 description: "let your minecraft weather be the same, as your real life weather."
 website: "www.spigotmc.org"
 commands:
    weather:
-      description: "warns a player"
+      description: "configurate your weather"
       permission: rolePlay.weather
 permissions:
    rolePlay.weather:
