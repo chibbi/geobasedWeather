@@ -2,7 +2,7 @@ main: org.chibbi.geobasedWeather.App
 name: "geobasedWeather"
 version: 1.0.0
 api-version: 1.16
-authors: "chibbi"
+author: "chibbi"
 description: "let your minecraft weather be the same, as your real life weather."
 website: "www.spigotmc.org"
 commands:

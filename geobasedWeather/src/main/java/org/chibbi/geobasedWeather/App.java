@@ -28,7 +28,6 @@ public class App extends JavaPlugin {
         this.getCommand("weather").setExecutor(new WeatherCommand());
         this.getCommand("weather").setTabCompleter(new WeatherTabCompletion());
         getLogger().info("Weather initiated!");
-        getLogger().info(Bukkit.getWorlds().toString());
         startScheduler();
     }
 
