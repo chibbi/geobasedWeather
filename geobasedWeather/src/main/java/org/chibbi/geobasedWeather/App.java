@@ -43,6 +43,7 @@ public class App extends JavaPlugin {
         if (!customConfigFile.exists()) {
             cusconf.set("apikey", "API-key");
             cusconf.set("city", "London");
+            cusconf.set("world", "world");
             try {
                 cusconf.save(customConfigFile);
             } catch (IOException e) {
@@ -89,20 +90,27 @@ public class App extends JavaPlugin {
                         System.out.println("GOT ERRORSS");
                         return;
                     }
+                    if (config.get("world") == null) {
+                        getLogger().severe(
+                                "Please define a world for this Plugin, via the '/weather set world YOURWORLD' command,"
+                                        + " or manually editing the config file.");
+                        return;
+                    }
+                    String yoWorld = config.get("world").toString();
                     if (respo.toLowerCase().contains("thunderstorm")) {
-                        Bukkit.getWorld("world").setThundering(true);
+                        Bukkit.getWorld(yoWorld).setThundering(true);
                     } else {
-                        Bukkit.getWorld("world").setThundering(false);
+                        Bukkit.getWorld(yoWorld).setThundering(false);
                     }
                     if (respo.toLowerCase().contains("rain")) {
-                        Bukkit.getWorld("world").setStorm(true);
+                        Bukkit.getWorld(yoWorld).setStorm(true);
                     } else {
-                        Bukkit.getWorld("world").setStorm(false);
+                        Bukkit.getWorld(yoWorld).setStorm(false);
                     }
 
                 } catch (IOException e) {
                     System.out.println(
-                            "Connection Error: likely lost internet connection. if multiple errors pop up, please look that your connection is stable\n"
+                            "\033[31mConnection Error\033[39m: likely lost internet connection. if multiple errors pop up, please look that your connection is stable\n"
                                     + "             You can contact the developer if you have problems.");
                 }
 
