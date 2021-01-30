@@ -1,6 +1,6 @@
 main: org.chibbi.geobasedWeather.App
 name: "geobasedWeather"
-version: 1.0.0
+version: 1.0.1
 api-version: 1.16
 author: "chibbi"
 description: "let your minecraft weather be the same, as your real life weather."

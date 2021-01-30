@@ -47,8 +47,8 @@ public class App extends JavaPlugin {
             try {
                 cusconf.save(customConfigFile);
             } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
+                getLogger().severe("Couldn't save config file");
+                getLogger().severe(e.getMessage());
             }
         }
         return cusconf;
@@ -73,7 +73,7 @@ public class App extends JavaPlugin {
                     int status = con.getResponseCode();
 
                     if (status >= 400) {
-                        System.out.println("No connection with Weather Api (possibly have to set your apikey)");
+                        getLogger().severe("No connection with Weather Api (possibly have to set your apikey)");
                         con.disconnect();
                         return;
                     }
@@ -87,7 +87,7 @@ public class App extends JavaPlugin {
                     in.close();
                     con.disconnect();
                     if (respo == null) {
-                        System.out.println("GOT ERRORSS");
+                        getLogger().severe("Weather API responded without information, likely a problem of the API.");
                         return;
                     }
                     if (config.get("world") == null) {
@@ -109,9 +109,9 @@ public class App extends JavaPlugin {
                     }
 
                 } catch (IOException e) {
-                    System.out.println(
-                            "\033[31mConnection Error\033[39m: likely lost internet connection. if multiple errors pop up, please look that your connection is stable\n"
-                                    + "             You can contact the developer if you have problems.");
+                    getLogger().severe(
+                            "\033[31mConnection Error\033[39m: likely lost internet connection. if multiple errors pop up, please check your internet connection!"
+                                    + " You can contact the developer if you have problems.");
                 }
 
             }
