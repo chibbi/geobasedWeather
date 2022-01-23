@@ -128,8 +128,10 @@
   <br>
   <br>If you think about it, the most it could ever lag behind is 5 seconds, and rain doesn't start and stop in 5 seconds so its more than fine.
 </p>
-<h3>Ideas for the further development</h3>
+<details>
+<summary><strong>Ideas for the further development</strong></summary>
 <p>
   Add more Input possibilities. openweathermap also supports longitude and aptitude, which might be needed in some cases.
   <br>Make the time between api calls configurable, so you can f**k up.
 </p>
+</details>
