@@ -9,7 +9,7 @@
   <a href="https://github.com/chibbi/geobasedWeather/releases/latest"><img src="https://img.shields.io/github/downloads/chibbi/geobasedWeather/total?style=for-the-badge"></a>
   <a href="https://github.com/chibbi/geobasedWeather/releases/latest"><img src="https://img.shields.io/github/downloads/chibbi/geobasedWeather/latest/total?style=for-the-badge"></a>
 </p>
-<h1>geobasedWeahter</h1>
+<h1>geobasedWeather</h1>
 <p>
   <strong><a href="https://www.spigotmc.org/resources/realtime-geobased-weather.88405/">geobasedWeather</a></strong>
   syncronises the weather of your server with the weather of an actual real location.
