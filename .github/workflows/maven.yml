@@ -36,4 +36,4 @@ jobs:
         title: "Development Build"
         files: |
           LICENSE
-          TrueDestiny/target/*.jar
+          geobasedWeather/target/*.jar
