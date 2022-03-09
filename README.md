@@ -1,3 +1,18 @@
+<!-- Überschrift -->
+<p align="center">
+  <h2 align="center">Geobased Weather</h2>
+
+  <p align="center">
+    A spigot plugin, which synchronizes the weather of your minecraftserver with a reallife location.
+    <br/>
+    <br/>
+    <a href="https://github.com/chibbi/geobasedWeather/issues/new?assignees=&labels=bug%2C+help+wanted&template=bug_report.md&title=">Report Bug</a>
+    .
+    <a href="https://github.com/chibbi/geobasedWeather/issues/new?assignees=&labels=enhancement%2C+feature&template=feature_request.md&title=">Request Feature</a>
+  </p>
+</p>
+
+<!-- Badges -->
 <p align="center">
   <a href="https://github.com/chibbi/geobasedWeather/blob/main/LICENSE.txt"><img src="https://img.shields.io/github/license/chibbi/geobasedWeather?style=for-the-badge" alt="License"></a>
   <a href="https://github.com/chibbi/geobasedWeather/stargazers"><img src="https://img.shields.io/github/stars/chibbi/geobasedWeather?style=for-the-badge" alt="GitHub stars"></a>
@@ -9,12 +24,15 @@
   <br>
   <a href="https://github.com/chibbi/geobasedWeather/releases/latest"><img src="https://img.shields.io/github/downloads/chibbi/geobasedWeather/total?style=for-the-badge"></a>
   <a href="https://github.com/chibbi/geobasedWeather/releases/latest"><img src="https://img.shields.io/github/downloads/chibbi/geobasedWeather/latest/total?style=for-the-badge"></a>
+  <br>
+  <a href="https://www.spigotmc.org/resources/realtime-geobased-weather.88405/"><img src="https://img.shields.io/spiget/rating/88405?style=for-the-badge"></a>
+  <a href="https://www.spigotmc.org/resources/realtime-geobased-weather.88405/"><img src="https://img.shields.io/spiget/tested-versions/88405?style=for-the-badge"></a>
 </p>
-<h1>geobasedWeather</h1>
 <p>
-  <strong><a href="https://www.spigotmc.org/resources/realtime-geobased-weather.88405/">geobasedWeather</a></strong>
-  syncronises the weather of your server with the weather of an actual real location.
+  <strong>This Plugin should work in every version from 1.8 to the latest (currently 1.18)</strong>
 </p>
+
+<!-- Content  -->
 <h2>Quickstart guide</h2>
 <p>
 <ol>
@@ -135,6 +153,7 @@
 <summary><strong>Ideas for the further development</strong></summary>
 <p>
   Add more Input possibilities. openweathermap also supports longitude and aptitude, which might be needed in some cases.
+  <br> Actually important step: test the plugin in more mc versions
   <br>Make the time between api calls configurable, so you can f**k up.
   <br>But i have to say, the plugin does everything i would want it to do, so there is no reason for me to develop it further.
   <br>If you would like to see further development or specific features, just create an <a href="https://github.com/chibbi/geobasedWeather/issues/new/choose">issue</a>
