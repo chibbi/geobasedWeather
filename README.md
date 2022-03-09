@@ -4,8 +4,9 @@
   <a href="https://github.com/chibbi/geobasedWeather/issues"><img src="https://img.shields.io/github/issues/chibbi/geobasedWeather?style=for-the-badge" alt="GitHub issues"></a>
   <br>
   <a href="https://github.com/chibbi/geobasedWeather/actions"><img src="https://img.shields.io/github/workflow/status/chibbi/geobasedWeather/build?style=for-the-badge"></a>
-  <a href="https://github.com/chibbi/geobasedWeather/"><img src="https://img.shields.io/github/commit-activity/m/chibbi/geobasedWeather?style=for-the-badge"></a>
-  <br>
+    <a href="https://github.com/chibbi/geobasedWeather/actions"><img src="https://img.shields.io/github/workflow/status/chibbi/geobasedWeather/CodeQL?label=CodeQL&style=for-the-badge"></a>
+  <!-- <a href="https://github.com/chibbi/geobasedWeather/"><img src="https://img.shields.io/github/commit-activity/m/chibbi/geobasedWeather?style=for-the-badge"></a>
+  <br> -->
   <a href="https://github.com/chibbi/geobasedWeather/releases/latest"><img src="https://img.shields.io/github/downloads/chibbi/geobasedWeather/total?style=for-the-badge"></a>
   <a href="https://github.com/chibbi/geobasedWeather/releases/latest"><img src="https://img.shields.io/github/downloads/chibbi/geobasedWeather/latest/total?style=for-the-badge"></a>
 </p>
@@ -106,6 +107,7 @@
               <br><strong>Starting the plugin will require a server restart or reload.</strong>
             </details>
           </li>
+            <!--
           <li>
             <details>
               <summary>start  - <strong>NOT IMPLEMENTED YET</strong></summary>
@@ -114,6 +116,7 @@
               <br><strong>This is not implemented yet.</strong>
             </details>
           </li>
+-->
         </ol> 
 </p>
 <h2>Breakdown of apicalls</h2>
@@ -133,5 +136,7 @@
 <p>
   Add more Input possibilities. openweathermap also supports longitude and aptitude, which might be needed in some cases.
   <br>Make the time between api calls configurable, so you can f**k up.
+  <br>But i have to say, the plugin does everything i would want it to do, so there is no reason for me to develop it further.
+  <br>If you would like to see further development or specific features, just create an <a href="https://github.com/chibbi/geobasedWeather/issues/new/choose">issue</a>
 </p>
 </details>
