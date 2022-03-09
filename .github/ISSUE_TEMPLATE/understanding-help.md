@@ -1,5 +1,5 @@
 ---
-name: Understanding help
+name: help
 about: Ask about something, you don't understand
 title: help
 labels: help wanted, question
