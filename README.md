@@ -3,7 +3,7 @@
   <a href="https://github.com/chibbi/geobasedWeather/stargazers"><img src="https://img.shields.io/github/stars/chibbi/geobasedWeather?style=for-the-badge" alt="GitHub stars"></a>
   <a href="https://github.com/chibbi/geobasedWeather/issues"><img src="https://img.shields.io/github/issues/chibbi/geobasedWeather?style=for-the-badge" alt="GitHub issues"></a>
   <br>
-  <a href="https://github.com/chibbi/geobasedWeather/actions"><img src="https://img.shields.io/github/workflow/status/chibbi/geobasedWeather/build?style=for-the-badge"></a>
+  <a href="https://github.com/chibbi/geobasedWeather/actions"><img src="https://img.shields.io/github/workflow/status/chibbi/geobasedWeather/Maven%20Build?style=for-the-badge"></a>
     <a href="https://github.com/chibbi/geobasedWeather/actions"><img src="https://img.shields.io/github/workflow/status/chibbi/geobasedWeather/CodeQL?label=CodeQL&style=for-the-badge"></a>
   <!-- <a href="https://github.com/chibbi/geobasedWeather/"><img src="https://img.shields.io/github/commit-activity/m/chibbi/geobasedWeather?style=for-the-badge"></a> -->
   <br>
